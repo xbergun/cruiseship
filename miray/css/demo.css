@@ -1,0 +1,549 @@
+body {
+	
+   background-image: url("../img/sitebg.png");
+   background-size:100%;         /* Firefox 3.6 */
+	background-repeat:no-repeat;
+	background-color:#ede9e6;
+	font-family: 'Galanomedium';
+	padding:0px;
+	font-size:13px;
+	line-height:23px;
+	
+}
+
+@media (min-width: 1200px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1000px;
+}
+
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'Galanobold';
+}
+b{
+	font-family: 'Galanomedium';
+
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 82%;
+}	
+
+.list-group > .list-group-item{
+	font-family: 'Galano';
+}
+.btn-light{
+	font-family: 'Galano';
+
+}
+.table{
+	font-family: 'Galano';
+
+}
+
+@font-face {
+	font-family: "Xtra";
+	src: url("../font/subset-Xtra.woff2") format("woff");
+	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galanomedium';
+    src: url('../font/GalanoGrotesque-Medium.woff') format('woff'),
+        url('../font/GalanoGrotesque-Medium.woff2') format('woff2');
+    font-weight: 600;
+    font-style: auto;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galanobold';
+    src: url('../font/GalanoGrotesqueAlt-SemiBold.woff') format('woff'),
+        url('../font/GalanoGrotesqueAlt-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Galano';
+    src: url('../font/Galano Grotesque.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GalanoBlack';
+    src: url('../font/Galano Grotesque Black.otf') format('opentype');
+	font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GalanoExtraBold';
+    src: url('../font/Galano Grotesque Extra Bold.woff') format('woff');
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+    font-family: 'GalanoSemiBold';
+    src: url('../font/Galano Grotesque Semi Bold.otf') format('opentype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+
+
+
+.hover_up {
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.hover_up:hover {
+    transform: translate(0px,-30px);
+    -webkit-transform: translate(0px,-30px);
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+	
+.logom img {
+		width:200px;
+		position:fixed;
+		left:0px;
+		top:0px;
+		z-index:1;
+	}
+	
+
+	.navbar-light .navbar-nav .nav-link {
+		font-family: "Xtra";
+		color: rgba(0,0,0,.5);
+		background-color: #00aed2;
+		margin: 4px;
+		border-radius: 5px;
+		color: #fff;
+		font-size:21px;
+		box-shadow: 3px 3px 0px 1px #d6d6d6;
+	}
+
+/* Telefon fixed*/	
+	.telfix {
+		position: fixed;
+		right: 0px;
+		top: -1px;
+		font-size: 25px;
+		color: #0078be;
+		display: block;
+		text-align: center;
+		width: 169px;
+		height: 168px;
+		display:block;
+		padding-top: 26px;
+		background-image: url("../img/telbg.png");
+		background-size: 100%;         /* Firefox 3.6 */
+		background-repeat:no-repeat;
+		padding-left: 58px;
+		line-height: 23px;
+		font-family: 'GalanoExtraBold'
+	}
+
+	.telfix a{
+		color: #0078be;
+		text-decoration:none;
+	}
+	
+/* Telefon fixed*/	
+
+/* Özel Paketler*/ 
+
+.opaket_baslik {
+    
+display: inline-block;
+    
+margin: 0 10px 10px 0;
+    
+background-color: #00aed2;
+    
+color: #ffffff;
+    
+padding:15px;
+    
+border-radius: 0px 20px 0px 0px;
+    
+margin-left: 100px;
+    
+font-size: 15px;
+}
+/* Özel Paketler*/ 
+	
+/* sosyal medya baglantÃƒâ€žÃ‚Â±*/
+	.sosyal {
+	position:fixed;
+	top:250px;
+	right:0px;
+	width: 80px;
+	height: 220px;
+	display:block;
+	padding-top: 25px;
+	background-image: url("../img/sosyal-medya-tuvali-.png");
+	background-repeat: no-repeat;
+	z-index:999999;
+	padding-left:20px;
+	background-size: 100%;
+	}
+	
+	.sosyal img {
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+/* sosyal medya baglantÃƒâ€žÃ‚Â±*/	
+	
+
+	
+.cboxElement img {
+    margin: 5px;
+    width: 200px;
+    height: 140px;
+    box-shadow: 0px 0px 4px 1px #7b7b7b;
+    border: 6px solid #ffffff;
+}
+
+.mavibaslik {
+	color:#01B0D1;
+	font-weight:bold;
+	font-size:22px;
+
+}
+
+.mavibaslik2 a {
+	color:#01B0D1;
+	font-weight:bold;
+	font-size:17px;
+	text-decoration:none;
+}
+
+/*Slider*/
+.sldbosluk {
+    margin-top: 98px;
+    top: 239px;
+	z-index:2;
+}
+
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 13px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #6c757d;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+	border-radius:30px;
+}
+
+
+/*tur detay*/
+
+.btn-light {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+    width: 100%;
+    height: 62px;
+    font-weight:bold;
+    font-size: 15px;
+    border-radius:20px;
+}
+
+.list-group-item {
+
+    padding:7px 15px;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.yazitur3 {
+	font-size:16px;
+}
+
+.turozel_font {
+	font-size:14px;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    color: #01B0D1;
+    font-size: 17px;
+    /* font-weight: bold; */
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #01b0d1;
+    padding: 10px;
+}
+
+
+th {
+	width:100px;
+}
+
+.Tursayfabaslik {
+	background-image: url("../img/turbaslikbg.png");
+	background-repeat:no-repeat;
+	padding: 7px 10px 9px 10px;
+	font-size:18px;
+	font-weight:bold;
+	color:#ffffff;
+	margin-bottom: 0px;
+	line-height: 29px;
+}
+
+.fa-chevron-right {
+	color:#ffffff;
+}
+
+
+/*turlar listesi*/
+.tablobosmavi > .list-group-item {
+border:none;
+
+	font-family: 'Galanomedium';
+	}
+	
+
+/*turlar listesi*/
+
+
+
+
+/*cep telefonu iÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§in */
+
+@media(max-width: 576px) {
+
+	.logom img {
+		display:none;
+	}
+
+	.telfix {
+		display:none;
+	}
+
+
+
+}
+
+
+
+@media (max-width: 768px) {
+
+	body{
+		font-family: 'Galanomedium';
+
+	}
+	.opaket_baslik{
+		margin-left: 10px;
+	}
+	.navbar-nav .nav-link {
+    padding-right: 0;
+   	padding-left: 15px;
+	}
+	.carousel-indicators{
+		margin-top: auto;
+		margin-bottom: 2px;
+	}
+	
+	.logom img {
+		display:none;
+	}
+	
+	.telfix {
+		display:none;
+	}
+	
+	.navbar-light .navbar-toggler {
+    color: rgb(243 240 240 / 50%);
+    border-color: rgba(0,0,0,.1);
+    background-color: #00aed2;
+	}
+
+	.bannermobil{
+		margin-bottom: -40px;
+		margin-left: 4px;
+		margin-top: -20px;
+	}
+
+	.mobiltelyazi {
+		color:#0078BF;
+		font-size: large;
+
+	}
+
+	.mobiltelyazi a {
+		color:#0078BF;
+	}
+	
+	.tab-menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    background-color: #00aed2;
+    color: #ffffff;
+    border-radius: 0px 20px 0px 0px;
+    width: 100%;
+	}
+	
+	/*turlar listesi mobil*/
+	.tablobosmavi > .list-group-item {
+	border:none;
+
+	}
+	
+	.ml-5, .mx-5 {
+		margin-left: 1px!important;
+	}
+	.table{
+		font-size: 11px;
+	}
+	.video{
+		height: 250px;
+		width: 250px;
+	}
+}
+
+
+
+
+/* tab manu */
+
+.tab-menu {
+	display:block;
+	margin:0;
+	padding:0;
+	text-align:left
+}
+.tab-menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    background-color: #00aed2;
+    color: #ffffff;
+	 border-radius: 0px 20px 0px 0px;
+}
+
+.tab-menu li a {
+	display:block;
+    background-color: #00aed2;
+    color: #ffffff;
+	padding:15px;
+	font-size:15px;
+	text-decoration:none;
+	border:1px solid #ddd;
+	border-radius: 0px 20px 0px 0px;
+}
+
+.tab-content {
+	display:none
+}
+#tab1 {
+	display:block
+}
+
+.tab-container {
+	
+	padding:30px;
+	font-family: 'Galanomedium';
+	font-size:15px;
+	color:#666
+}
+.current a {
+    background: #275c67 !important;
+    color: #fff !important;
+    width: 100%;
+    border-radius: 0px 20px 0px 0px;
+    border: 1px solid #ffffff;
+}
+
+.current {
+    background: #00aed2 !important;
+    color: #fff !important;
+    width: 200px;
+    border-radius: 0px 20px 0px 0px;
+    border: 1px solid #ffffff;
+}
+
+/* lightbox */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.row .flex-column{
+    flex: 25%;
+    max-width:25%;
+    overflow: hidden;
+    padding: 0 4px;
+     height: 100%;
+}
+.row .flex-column img{
+    width: 100%;
+    cursor: pointer;
+    margin-top: 2%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+.abc{
+    height: 177px; !important;
+}
+.abcd{
+    height: 201px; !important;
+}
+
+
+@media only screen and (max-width:800px ){
+    .row .flex-column{
+        flex: 50%;
+        max-width: 50%;
+        margin-left: 15px;
+        padding-left: 10px;
+
+    }
+}
+@media only screen and (max-width:680px ){
+    .row .flex-column{
+        flex: 100%;
+        margin-left: 15px;
+        max-width: 100%;
+        padding-left: 10px;
+
+
+    }
+}
+
+/* lightbox */
+
+

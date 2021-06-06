@@ -1,0 +1,32 @@
+
+
+
+#m_area{
+    width: 850px;
+    height: 600px;
+    overflow: hidden;
+	cursor: pointer;
+    position: relative;
+}
+#m_img{
+    max-width: 100%;
+    min-width: 100%;
+    position: absolute;
+    left: 53%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+}
+
+@media (max-width: 768px){
+    #m_area{
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+
+        position: relative;
+    }
+    #m_img{
+
+    }
+}

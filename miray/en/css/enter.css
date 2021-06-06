@@ -1,0 +1,64 @@
+﻿
+
+#backgroundPopup{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:100%;
+width:100%;
+top:0;
+left:0;
+background:#000000;
+border:1px solid #cecece;
+z-index:1;
+}
+
+#popupContact{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+
+width:700px;
+background:#FFFFFF;
+border:none;
+z-index:2;
+padding:25px;
+font-size:13px;
+border-radius:80px;
+
+}
+
+
+
+#popupContactClose{
+font-size:22px;
+line-height:14px;
+right:25px;
+top:30px;
+position:absolute;
+color:#6fa5fd;
+font-weight:700;
+display:block;
+}
+#button{
+text-align:center;
+margin:100px;
+}
+
+@media (max-width: 768px) { 
+
+	#popupContact{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+
+	width:90%;
+	background:#FFFFFF;
+	border:2px solid #cecece;
+	z-index:9999999999;
+	padding:12px;
+	font-size:13px;
+	border-radius:80px;
+}
+
+}
